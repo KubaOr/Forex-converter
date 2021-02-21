@@ -1,0 +1,42 @@
+### Conceptual Exercise
+
+Answer the following questions below:
+
+- What are important differences between Python and JavaScript?
+- python uses indentation, JS uses blocks
+- python has mutable-immutable data types and structures, JS not
+- for some errors python will rase error, JS returns undefined
+- invalid syntax rases error in python, JS igonres some
+- Python provides a huge standard library whereas JavaScript has a limited standard library.
+- Python has great offical docs while for JS u have to use different resources.
+
+- Given a dictionary like ``{"a": 1, "b": 2}``: , list two ways you
+  can try to get a missing key (like "c") *without* your programming
+  crashing.
+- use get dict method, doesnt raise an error,
+- check if missing key is in dict then try to acces
+
+- What is a unit test?
+- testing one piece of source code
+
+- What is an integration test?
+- testing mulpiple componetnts and functions and how they work together
+- What is the role of web application framework, like Flask?
+- framework helps skip some low level staff, u dont have to hard code from the begginng
+- You can pass information to Flask either as a parameter in a route URL
+  (like '/foods/pretzel') or using a URL query param (like
+  'foods?type=pretzel'). How might you choose which one is a better fit
+  for an application?
+- i wpuld chose query parm if i have multple selection with key:value pairs
+- How do you collect data from a URL placeholder parameter using Flask?
+- senf within route and recieve in route func
+- How do you collect data from the query string using Flask?
+- request.args
+- How do you collect data from the body of the request using Flask?
+- cookies
+- What is a cookie and what kinds of things are they commonly used for?
+- send data with http request
+- What is the session object in Flask?
+- tracks session data with in key value pairs
+- What does Flask's `jsonify()` do?
+- convert data to JSON
